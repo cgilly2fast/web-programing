@@ -1,0 +1,52 @@
+/*
+	Colby Gilbert
+	Austin Weale
+	CSE 154
+	Assignment 5
+	5/10/2015
+*/
+
+body {
+	margin: 0pt;
+	font: 10pt Verdana, Arial, sans-serif;
+}
+
+tr:nth-child(even) {
+	background-color: #dad9d4;
+}
+
+table {
+	border: 1px solid #dad9d4;
+	border-collapse: collapse;
+}
+
+form, table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#validators, #banner  {
+    background-color: #100000;
+    padding: 5px;
+    color: white;
+}
+
+#main {
+	padding: 1em;
+	text-align: center;
+}
+
+#title {
+	padding-left: 10em;
+	padding-right: 10em;
+}
+
+tr {
+	background-color: white;
+}
+
+
+form {
+	width: 24em;
+}
+

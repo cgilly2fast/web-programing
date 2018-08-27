@@ -1,0 +1,131 @@
+/*  Colby Gilbert
+	Austin Weale
+	Assignment 3
+	1362877
+	4/21/15
+
+	used for styling rancide tomatos website
+*/
+
+body {
+	background-image: url(https://webster.cs.washington.edu/images/moviebg.png);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;	
+}	
+
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+
+}
+
+.banner {
+	background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	clear:right;
+}	
+
+#main {
+	background-color: #EEEEEE;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	overflow: hidden;
+}
+
+#critic {
+	width: 550px;
+	float: left; 
+}
+
+.rating {
+	font-size: 48pt;
+	color: red;
+	vertical-align: text-bottom; 
+}
+
+.note, .id {
+	float: left;
+	width: 47%;
+	margin-left: 2%;
+	margin-left: 2%;
+	font-size: 10pt;
+	padding: 8px;
+	font-family: Georgia, "Times New Roman", sans-serif;
+
+}
+ p span {
+ 	font-style: italic;
+ }
+ 
+ .rate {
+	width:800px;
+	float: left;
+	background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+
+.note {
+	background-color: #FFFFFF;
+	border:2px solid #CCCCCC;
+	border-radius: 20px;
+}
+
+#overview {
+	width: 250px;
+	padding: 0px;
+	float: right;
+	clear: right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.note > img, .id > img {
+	float:left;
+	margin-right: 5px;
+	overflow: hidden;
+}
+.note > q, .note > span {
+	font-size: 10pt;
+}
+
+dt {
+	font-weight: bold;
+	padding: 10px;
+}
+dd {
+	margin-right:10px;
+}
+#links{
+	list-style-type: none;
+	padding-left: 0;
+}
+#overview, #page {
+background-color: #A2B964;
+}
+
+#page {
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	margin: 0px;
+}
+
+.validators {
+	float:right;
+	opacity:.5;
+	clear:right;
+} 
+
+.validators:hover {
+	opacity: 1.0
+}

@@ -1,0 +1,50 @@
+h1, body > div {
+    text-align:center;
+}
+body {
+    background-color:#EAF6F6;
+    font-family:"Garamond", serif;
+    font-size:12pt;
+}
+
+#display {
+    width:80%;
+    height:100px;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:36pt;
+    font-family:monospace;
+    border: 2px #8EBEBE solid;
+    background-color:#FFFFFF;
+    text-align:center;
+    border-radius:5px;
+}
+
+legend {
+    font-weight:normal;
+    text-align:left;
+    border-bottom: 1px solid #8EBEBE;
+    width:100%;
+    margin:2px;
+}
+
+#input, textarea {
+    padding:0;
+}
+
+#input {
+    border:solid 1px gray;
+    background-color:#FFFFFF;
+}
+
+#input, .inline {
+    border:none;
+}
+
+button {
+    width:70px;
+    border: solid gray 1px;
+}
+.inline {
+    display:inline;
+}    

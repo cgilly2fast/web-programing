@@ -1,0 +1,134 @@
+/*  Colby Gilbert
+	Austin Weale
+	Assignment 2
+	1362877
+	4/10/15
+*/
+
+body {
+	background-image: url(https://webster.cs.washington.edu/images/moviebg.png);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+	background-position: top left;
+	background-repeat: repeat-x;	
+}	
+
+h1 {
+	margin-top:72px;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+
+}
+
+#banner {
+	width:795px;
+	margin-right: auto;
+	margin-left:auto;
+	
+}	
+
+#main {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	overflow: hidden;
+}
+
+#critic {
+	/*clear: right;*/
+	width: 550px;
+	len:;
+	float: left;
+	background-color: #EEEEEE; 
+}
+
+#rating {
+	font-size: 48pt;
+	color: red;
+	vertical-align: text-bottom; 
+}
+
+/*#reviews {
+	clear: left;
+}*/
+
+.note, .id {
+	float: left;
+	width: 47%;
+	/*margin-left: 2%;
+	margin-left: 2%;*/
+	font-size: 10pt;
+	padding: 8px;
+	font-family: Georgia, "Times New Roman", sans-serif;
+
+}
+ p span {
+ 	font-style: italic;
+ }
+ 
+.note {
+	background-color: #FFFFFF;
+	border:2px solid #CCCCCC;
+	border-radius: 20px;
+}
+
+#overview {
+	width: 250px;
+	padding: 0px;
+	float: right;
+	background-color: #A2B964;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.note > img, .id > img {
+	float:left;
+	margin-right: 5px;
+	overflow: hidden;
+}
+.note > q, .note > span {
+	font-size: 10pt;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 10pt;
+	padding: 10px;
+}
+#links{
+	list-style-type: none;
+	padding-left: 0;
+}
+#page {
+	clear: both;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+	margin: 0px;
+}
+
+#validators {
+	float:right;
+	opacity:.5;
+} 
+
+#validators:hover {
+	opacity: 1.0
+}
+
+#rate {
+	float: left;
+}
+#col2 {
+	float:right;
+}

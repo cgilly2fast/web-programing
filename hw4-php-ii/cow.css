@@ -1,0 +1,46 @@
+/*	Colby Gilbert
+	CSE 154
+	Austin Weale
+	5/5/2014
+	Assignment #4
+	all extra features included
+*/
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+body, input, select, option, button, a {
+    font-size: 14pt;
+    color: #005AB4;
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+#error {
+font-weight: bold;
+    padding: 0.5em;
+    background-color: #FFDDDD;
+    color: #FF0000;
+    width: auto;
+    border: 1px dotted #FF0000;
+}
+#main {
+    margin: 2em;
+}
+#todolist form {
+    display: inline;
+}
+#todolist li {
+    clear: right;
+}
+h1 img {
+    float: left;
+    margin-right: 1em;
+}
+li {
+    margin-bottom: 0.5em;
+    width: 20em;
+}
+li form input[type="submit"] {
+    float: right;
+    margin-left: 1em;
+}

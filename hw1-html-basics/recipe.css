@@ -1,0 +1,54 @@
+/*Colby Gilbert
+	1362877
+	Austin Weale
+	04/4/2015
+
+	DESCRIPTION: the style and looks for my lemon meringue pie
+*/
+	
+h1, h2 {
+	letter-spacing: 0.25em;
+	text-decoration: underline;
+	color:#A4A400;
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif
+}
+
+h1 {
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 18pt;
+	text-align: left;
+	font-weight: normal;
+}
+
+body {
+	background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+	background-attachment:fixed;
+	background-color: white;
+	font-size:11pt;
+	color: #404040;
+	font-family: Georgia, Garamond, serif;
+
+}
+
+a {
+	color: #A4A400
+}
+
+blockquote {
+	font-style: italic;
+	background-color: #FFFFA8
+}
+
+ul {
+	list-style-image: url("https://webster.cs.washington.edu/images/pie-icon.gif");
+}
+
+abbr {
+	text-decoration: underline;
+}

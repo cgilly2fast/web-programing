@@ -1,0 +1,35 @@
+/*
+	Colby Gilbert
+	CSE 154
+	Austin Weale
+	5/23/2015
+	
+	Style for HW7 CSE 154 Fifteen Game
+	
+*/	
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height:400px;
+	position: relative;
+} 
+
+.piece {
+	background-image: url("background.jpg");
+	position: absolute;
+	font-size: 40pt;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+}
